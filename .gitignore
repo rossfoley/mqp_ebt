@@ -1,0 +1,5 @@
+*.class
+out/
+nohup.out
+.idea/workspace.xml
+fitnesses--uid*
