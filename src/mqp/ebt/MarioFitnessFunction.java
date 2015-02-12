@@ -35,7 +35,9 @@ public class MarioFitnessFunction extends GPFitnessFunction {
         MQPMarioTask task = new MQPMarioTask(marioAIOptions);
         EBTAgent agent = new EBTAgent(ebt);
 
-        // Evaulate the agent
-        return task.evaluate(agent);
+        // Evaluate the agent
+        double fitness = task.evaluate(agent);
+        ebt.setFitnessValue(fitness);
+        return fitness;
     }
 }
