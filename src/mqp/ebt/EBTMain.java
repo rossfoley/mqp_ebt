@@ -11,6 +11,7 @@ import org.jgap.gp.impl.GPConfiguration;
 public class EBTMain {
     public static void main(String[] args) throws InvalidConfigurationException {
         GPConfiguration config = new GPConfiguration();
+        // TODO: CHANGE THESE VALUES TO REAL CONFIG VALUES IN THE FUTURE
         config.setMaxInitDepth(7);
         config.setPopulationSize(100);
         config.setCrossoverProb(0.9f);
