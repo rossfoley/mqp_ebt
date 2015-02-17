@@ -8,11 +8,14 @@ import org.jgap.gp.IGPProgram;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTAgent extends BasicMarioAIAgent {
-    IGPProgram ebt;
+    private IGPProgram ebt;
+    private int radius;
 
-    public EBTAgent(IGPProgram ebt) {
+    public EBTAgent(IGPProgram gp) {
         super("EBTAgent");
-        this.ebt = ebt;
+        ebt = gp;
+        ebt.setApplicationData(this);
+        radius = 1;
     }
 
     /**
@@ -38,5 +41,30 @@ public class EBTAgent extends BasicMarioAIAgent {
             output[i] = ((input & (1 << i)) > 0);
         }
         return output;
+    }
+
+    public boolean getTerrain(int x, int y) {
+        return probe(x, y, levelScene);
+    }
+
+    public boolean getEnemy(int x, int y) {
+        return probe(x, y, enemies);
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    /**
+     * Determine if there is an object at a specified position in the scene
+     * @param x x position in the scene
+     * @param y y position in the scene
+     * @param scene scene data
+     * @return the data at the position in the scene
+     */
+    private boolean probe(int x, int y, byte[][] scene) {
+        int realX = x + 11;
+        int realY = y + 11;
+        return scene[realX][realY] != 0;
     }
 }
