@@ -17,3 +17,7 @@
 [18.02.2015 04:42:01,339] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1033.0
 [18.02.2015 04:42:01,339] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if pit(ahead) then ((if enemy(behind) then ((if enemy(ahead) then (18) else(18))) else((if enemy(behind) then (2) else(2))))) else((if wall(ahead) then ((if pit(ahead) then (18) else(18))) else((if wall(ahead) then (18) else(18)))))
 [18.02.2015 04:42:01,339] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[18.02.2015 04:44:11,818] [main] INFO  mqp.ebt.EBTMain  - Best EBT for Mario:
+[18.02.2015 04:44:11,818] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1033.0
+[18.02.2015 04:44:11,818] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if pit(ahead) then ((if enemy(behind) then ((if enemy(ahead) then (18) else(18))) else((if enemy(behind) then (2) else(2))))) else((if wall(ahead) then ((if pit(ahead) then (18) else(18))) else((if wall(ahead) then (18) else(18)))))
+[18.02.2015 04:44:11,819] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3

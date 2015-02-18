@@ -1,16 +1,12 @@
 package mqp.ebt;
 
-import mqp.gp.IfEnemyAhead;
-import mqp.gp.IfEnemyBehind;
-import mqp.gp.IfPitAhead;
-import mqp.gp.IfWallAhead;
+import mqp.gp.*;
 import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
 import org.jgap.gp.impl.DefaultGPFitnessEvaluator;
 import org.jgap.gp.impl.GPConfiguration;
 import org.jgap.gp.impl.GPGenotype;
-import org.jgap.gp.terminal.Terminal;
 
 /**
  * GPProblem that handles creating a population of EBTs
@@ -43,7 +39,7 @@ public class EBTProblem extends GPProblem {
             new IfEnemyBehind(config),
             new IfWallAhead(config),
             new IfPitAhead(config),
-            new Terminal(config, CommandGene.IntegerClass, 0, 63, true)
+            new ButtonPress(config)
         }};
 
         return GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, maxNodes, useVerboseOutput);

@@ -25,19 +25,19 @@ public class Terminal
   /** String containing the CVS revision. Read out via reflection!*/
   private static final String CVS_REVISION = "$Revision: 1.18 $";
 
-  private float m_value_float;
+  protected float m_value_float;
 
-  private double m_value_double;
+  protected double m_value_double;
 
-  private int m_value_int;
+  protected int m_value_int;
 
-  private long m_value_long;
+  protected long m_value_long;
 
-  private double m_lowerBounds;
+  protected double m_lowerBounds;
 
-  private double m_upperBounds;
+  protected double m_upperBounds;
 
-  private boolean m_wholeNumbers;
+  protected boolean m_wholeNumbers;
 
   public Terminal()
       throws InvalidConfigurationException {
