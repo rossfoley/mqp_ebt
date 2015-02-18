@@ -2,28 +2,26 @@ package mqp.ebt;
 
 
 import org.jgap.InvalidConfigurationException;
-import org.jgap.gp.impl.DefaultGPFitnessEvaluator;
-import org.jgap.gp.impl.GPConfiguration;
+import org.jgap.gp.impl.GPGenotype;
 
 /**
  * Main function that evolves EBTs
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTMain {
-    public static void main(String[] args) throws InvalidConfigurationException {
-        GPConfiguration config = new GPConfiguration();
-        // TODO: CHANGE THESE VALUES TO REAL CONFIG VALUES IN THE FUTURE
-        config.setMaxInitDepth(6);
-        config.setPopulationSize(100);
-        config.setCrossoverProb(0.9f);
-        config.setReproductionProb(0.1f);
-        config.setNewChromsPercent(0.3f);
-        config.setStrictProgramCreation(true);
-        config.setUseProgramCache(true);
-        config.setGPFitnessEvaluator(new DefaultGPFitnessEvaluator());
-        config.setFitnessFunction(new MarioFitnessFunction());
+    public static final int numGenerations = 10;
 
-        EBTProblem problem = new EBTProblem(config);
-        problem.start();
+    public static void main(String[] args) throws InvalidConfigurationException {
+        // Setup the initial population
+        EBTProblem problem = new EBTProblem();
+        GPGenotype gp = problem.create();
+        gp.setVerboseOutput(true);
+
+        // Run the evolution process
+        gp.evolve(numGenerations);
+
+        // Output the best solution
+        System.out.println("Best EBT for Mario:");
+        gp.outputSolution(gp.getAllTimeBest());
     }
 }

@@ -10,6 +10,7 @@ import org.jgap.gp.IGPProgram;
 public class EBTAgent extends BasicMarioAIAgent {
     private IGPProgram ebt;
     private int radius;
+    private static Object[] NO_ARGS = new Object[0];
 
     public EBTAgent(IGPProgram gp) {
         super("EBTAgent");
@@ -24,7 +25,7 @@ public class EBTAgent extends BasicMarioAIAgent {
      * @return the buttons to press
      */
     public boolean[] getAction() {
-        int output = ebt.execute_int(0, null); // Arguments might not be correct!
+        int output = ebt.execute_int(0, NO_ARGS);
         return parseOutput(output);
     }
 
@@ -43,14 +44,30 @@ public class EBTAgent extends BasicMarioAIAgent {
         return output;
     }
 
+    /**
+     * Find value of terrain at specified position
+     * @param x x position
+     * @param y y position
+     * @return true if there is a block at (x, y)
+     */
     public boolean getTerrain(int x, int y) {
         return probe(x, y, levelScene);
     }
 
+    /**
+     * Find value of the enemy at specified position
+     * @param x x position
+     * @param y y position
+     * @return true if there is an enemy at (x, y)
+     */
     public boolean getEnemy(int x, int y) {
         return probe(x, y, enemies);
     }
 
+    /**
+     * Return the radius of Mario's input
+     * @return the radius
+     */
     public int getRadius() {
         return radius;
     }

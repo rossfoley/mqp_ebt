@@ -7,6 +7,7 @@ import mqp.gp.IfWallAhead;
 import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
+import org.jgap.gp.impl.DefaultGPFitnessEvaluator;
 import org.jgap.gp.impl.GPConfiguration;
 import org.jgap.gp.impl.GPGenotype;
 import org.jgap.gp.terminal.Terminal;
@@ -17,11 +18,13 @@ import org.jgap.gp.terminal.Terminal;
  */
 public class EBTProblem extends GPProblem {
     GPConfiguration config;
-    boolean useVerboseOutput = false;
+    final boolean useVerboseOutput = false;
+    final int maxNodes = 100;
 
-    public EBTProblem(GPConfiguration c) throws InvalidConfigurationException {
-        super(c);
-        config = c;
+    public EBTProblem() throws InvalidConfigurationException {
+        super(new GPConfiguration());
+        config = getGPConfiguration();
+        initConfig();
     }
 
     /**
@@ -38,17 +41,21 @@ public class EBTProblem extends GPProblem {
             new IfEnemyBehind(config),
             new IfWallAhead(config),
             new IfPitAhead(config),
-            // Button presses
             new Terminal(config, CommandGene.IntegerClass, 0, 63, true)
         }};
 
-        return GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, 100, useVerboseOutput);
+        return GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, maxNodes, useVerboseOutput);
     }
 
-    /**
-     * Start the evolving process in a new thread
-     */
-    public void start() {
-        // Run the evolving thread
+    private void initConfig() throws InvalidConfigurationException {
+        config.setMaxInitDepth(6);
+        config.setPopulationSize(100);
+        config.setCrossoverProb(0.9f);
+        config.setReproductionProb(0.1f);
+        config.setNewChromsPercent(0.3f);
+        config.setStrictProgramCreation(true);
+        config.setUseProgramCache(true);
+        config.setGPFitnessEvaluator(new DefaultGPFitnessEvaluator());
+        config.setFitnessFunction(new MarioFitnessFunction());
     }
 }

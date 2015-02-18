@@ -13,7 +13,7 @@ import org.jgap.gp.IGPProgram;
 public class MarioFitnessFunction extends GPFitnessFunction {
     /**
      * Evaluate the fitness of an EBT
-     * @param ebt the EBT to evaulate
+     * @param ebt the EBT to evaluate
      * @return the fitness of the EBT
      */
     @Override
