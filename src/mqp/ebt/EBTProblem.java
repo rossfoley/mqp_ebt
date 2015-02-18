@@ -20,10 +20,12 @@ public class EBTProblem extends GPProblem {
     GPConfiguration config;
     final boolean useVerboseOutput = false;
     final int maxNodes = 100;
+    private int radius;
 
-    public EBTProblem() throws InvalidConfigurationException {
+    public EBTProblem(int radius) throws InvalidConfigurationException {
         super(new GPConfiguration());
         config = getGPConfiguration();
+        this.radius = radius;
         initConfig();
     }
 
@@ -47,8 +49,12 @@ public class EBTProblem extends GPProblem {
         return GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, maxNodes, useVerboseOutput);
     }
 
+    /**
+     * Initialize the GP configuration
+     * @throws InvalidConfigurationException
+     */
     private void initConfig() throws InvalidConfigurationException {
-        config.setMaxInitDepth(6);
+        config.setMaxInitDepth(8);
         config.setPopulationSize(100);
         config.setCrossoverProb(0.9f);
         config.setReproductionProb(0.1f);
@@ -56,6 +62,6 @@ public class EBTProblem extends GPProblem {
         config.setStrictProgramCreation(true);
         config.setUseProgramCache(true);
         config.setGPFitnessEvaluator(new DefaultGPFitnessEvaluator());
-        config.setFitnessFunction(new MarioFitnessFunction());
+        config.setFitnessFunction(new MarioFitnessFunction(radius));
     }
 }

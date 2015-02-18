@@ -38,7 +38,7 @@ public class IfPitAhead extends MarioCommand {
 
     @Override
     public String toString() {
-        return "if pit(ahead) then (&1) else(&2)";
+        return "if pit(ahead) then &1 else &2";
     }
 
     @Override

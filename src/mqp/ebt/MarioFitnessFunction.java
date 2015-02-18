@@ -11,6 +11,16 @@ import org.jgap.gp.IGPProgram;
  * @author Ross Foley and Karl Kuhn
  */
 public class MarioFitnessFunction extends GPFitnessFunction {
+    private MQPMarioTask task;
+    private int radius;
+
+    public MarioFitnessFunction(int radius) {
+        MarioAIOptions marioAIOptions = new MarioAIOptions();
+        marioAIOptions.setVisualization(false);
+        task = new MQPMarioTask(marioAIOptions);
+        this.radius = radius;
+    }
+
     /**
      * Evaluate the fitness of an EBT
      * @param ebt the EBT to evaluate
@@ -27,13 +37,8 @@ public class MarioFitnessFunction extends GPFitnessFunction {
      * @return the fitness of the EBT
      */
     public double computeFitness(IGPProgram ebt) {
-        // Turn off the GUI for Mario
-        MarioAIOptions marioAIOptions = new MarioAIOptions();
-        marioAIOptions.setVisualization(false);
-
-        // Create the MQP task and EBTAgent
-        MQPMarioTask task = new MQPMarioTask(marioAIOptions);
-        EBTAgent agent = new EBTAgent(ebt);
+        // Create the agent
+        EBTAgent agent = new EBTAgent(ebt, radius);
 
         // Evaluate the agent
         double fitness = task.evaluate(agent);

@@ -35,7 +35,7 @@ public class IfWallAhead extends MarioCommand {
 
     @Override
     public String toString() {
-        return "if wall(ahead) then (&1) else(&2)";
+        return "if wall(ahead) then &1 else &2";
     }
 
     @Override

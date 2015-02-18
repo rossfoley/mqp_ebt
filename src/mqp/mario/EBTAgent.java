@@ -12,11 +12,11 @@ public class EBTAgent extends BasicMarioAIAgent {
     private int radius;
     private static Object[] NO_ARGS = new Object[0];
 
-    public EBTAgent(IGPProgram gp) {
+    public EBTAgent(IGPProgram gp, int radius) {
         super("EBTAgent");
         ebt = gp;
         ebt.setApplicationData(this);
-        radius = 1;
+        this.radius = radius;
     }
 
     /**

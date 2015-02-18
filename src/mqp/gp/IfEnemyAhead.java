@@ -35,7 +35,7 @@ public class IfEnemyAhead extends MarioCommand {
 
     @Override
     public String toString() {
-        return "if enemy(ahead) then (&1) else(&2)";
+        return "if enemy(ahead) then &1 else &2";
     }
 
     @Override
