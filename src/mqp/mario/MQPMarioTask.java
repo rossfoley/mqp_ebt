@@ -32,7 +32,6 @@ public class MQPMarioTask extends BasicTask implements Task, Cloneable {
         super(evaluationOptions);
         setOptionsAndReset(evaluationOptions);
         uniqueSeed = seed;
-        System.out.println("Running new generation on MQPMarioTask");
     }
 
     /**
