@@ -88,7 +88,7 @@ public class ButtonPress extends CommandGene implements IMutateable, ICloneable 
             }
         }
 
-        return StringUtils.join(pressed.toArray(), ", ");
+        return "(" + StringUtils.join(pressed.toArray(), ", ") + ")";
     }
 
     @Override
