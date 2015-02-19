@@ -18,7 +18,7 @@ import java.util.List;
 public class EBTProblem extends GPProblem {
     GPConfiguration config;
     final boolean useVerboseOutput = false;
-    final int maxNodes = 100;
+    final int maxNodes = 1000;
     private int radius;
 
     public EBTProblem(int radius) throws InvalidConfigurationException {
