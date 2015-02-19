@@ -32,3 +32,25 @@
 [19.02.2015 04:33:46,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1033.0
 [19.02.2015 04:33:46,397] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if enemy(ahead) then (if enemy(behind) then (if pit(ahead) then (if wall(ahead) then (if pit(ahead) then Down, Up else Right, Down, Up) else (if wall(ahead) then Right, Down, Up else Right, Down, Up)) else (if wall(ahead) then (if enemy(ahead) then Right, Down, Up else Right, Down, Up) else (if wall(ahead) then Right, Down, Up else Right, Down, Up))) else (if enemy(ahead) then (if enemy(ahead) then (if pit(ahead) then Right, Down, Up else Right, Down, Up) else (if enemy(ahead) then Up else Up)) else (if wall(ahead) then (if enemy(ahead) then Left, Up else Left, Up) else (if pit(ahead) then Right, Up else Right, Up)))) else (if enemy(ahead) then (if pit(ahead) then (if wall(ahead) then (if wall(ahead) then Left, Up else Left, Up) else (if enemy(behind) then Left, Up else Right, Run/Fire)) else (if pit(ahead) then (if enemy(ahead) then Right, Run/Fire else Right, Run/Fire) else (if wall(ahead) then Right, Run/Fire else Right, Run/Fire))) else (if wall(ahead) then (if pit(ahead) then (if pit(ahead) then Right, Run/Fire else Right, Run/Fire) else (if wall(ahead) then Right, Run/Fire else Right, Jump, Run/Fire, Up)) else (if pit(ahead) then (if enemy(behind) then Right, Up else Right, Up) else (if pit(ahead) then Right, Up else Right, Up))))
 [19.02.2015 04:33:46,397] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[19.02.2015 04:53:52,519] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[19.02.2015 04:53:52,862] [main] INFO  org.jgap.gp.impl.GPGenotype  - Your configuration does not contain unused commands, this is good
+[19.02.2015 04:53:52,864] [main] INFO  mqp.ebt.EBTMain  - Starting evolution process
+[19.02.2015 04:54:24,100] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 1
+[19.02.2015 04:54:24,102] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 04:54:24,102] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 458.5908203125 MB
+[19.02.2015 04:54:40,141] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 2
+[19.02.2015 04:54:40,143] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 04:54:40,143] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 441.7275390625 MB
+[19.02.2015 04:54:56,594] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 3
+[19.02.2015 04:54:56,594] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 04:54:56,594] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 354.1181640625 MB
+[19.02.2015 04:55:13,370] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 4
+[19.02.2015 04:55:13,371] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 04:55:13,371] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 427.7314453125 MB
+[19.02.2015 04:55:30,165] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 5
+[19.02.2015 04:55:30,165] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1033.0
+[19.02.2015 04:55:30,166] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 498.5673828125 MB
+[19.02.2015 04:55:30,166] [main] INFO  mqp.ebt.EBTMain  - Best EBT for Mario:
+[19.02.2015 04:55:30,168] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1033.0
+[19.02.2015 04:55:30,169] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if enemy(ahead) then (Left, Right, Jump, Run/Fire) else (if wall(ahead) then (if enemy(ahead) then (Right, Run/Fire, Up) else (Right, Run/Fire, Up)) else (Right))
+[19.02.2015 04:55:30,169] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3

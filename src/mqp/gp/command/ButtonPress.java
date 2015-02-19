@@ -1,4 +1,4 @@
-package mqp.gp;
+package mqp.gp.command;
 
 import org.apache.commons.lang.StringUtils;
 import org.jgap.InvalidConfigurationException;

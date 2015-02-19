@@ -1,4 +1,4 @@
-package mqp.gp;
+package mqp.gp.command;
 
 import mqp.mario.EBTAgent;
 import org.jgap.InvalidConfigurationException;
@@ -6,11 +6,11 @@ import org.jgap.gp.impl.GPConfiguration;
 import org.jgap.gp.impl.ProgramChromosome;
 
 /**
- * Command to check if an enemy is behind of Mario
+ * Command to check if an enemy is ahead of Mario
  * @author Ross Foley and Karl Kuhn
  */
-public class IfEnemyBehind extends MarioCommand {
-    public IfEnemyBehind(GPConfiguration config) throws InvalidConfigurationException {
+public class IfEnemyAhead extends MarioCommand {
+    public IfEnemyAhead(GPConfiguration config) throws InvalidConfigurationException {
         super(config);
     }
 
@@ -18,15 +18,15 @@ public class IfEnemyBehind extends MarioCommand {
     public int execute_int(ProgramChromosome c, int n, Object[] args) {
         EBTAgent agent = getAgent(c);
         int radius = agent.getRadius();
-        boolean enemyBehind = false;
+        boolean enemyAhead = false;
 
-        for (int x = -1*radius; x <= -1; x++) {
+        for (int x = 1; x <= radius; x++) {
             for (int y = -1*radius; y <= radius; y++) {
-                enemyBehind = enemyBehind || agent.getEnemy(x, y);
+                enemyAhead = enemyAhead || agent.getEnemy(x, y);
             }
         }
 
-        if (enemyBehind) {
+        if (enemyAhead) {
             return c.execute_int(n, 0, args);
         } else {
             return c.execute_int(n, 1, args);
@@ -35,11 +35,11 @@ public class IfEnemyBehind extends MarioCommand {
 
     @Override
     public String toString() {
-        return "if enemy(behind) then &1 else &2";
+        return "if enemy(ahead) then &1 else &2";
     }
 
     @Override
     public String getName() {
-        return "IfEnemyBehind";
+        return "IfEnemyAhead";
     }
 }

@@ -1,4 +1,4 @@
-package mqp.gp;
+package mqp.gp.command;
 
 import mqp.mario.EBTAgent;
 import org.jgap.InvalidConfigurationException;
@@ -6,11 +6,11 @@ import org.jgap.gp.impl.GPConfiguration;
 import org.jgap.gp.impl.ProgramChromosome;
 
 /**
- * Command to check if a pit is ahead of Mario
+ * Command to check if an enemy is behind of Mario
  * @author Ross Foley and Karl Kuhn
  */
-public class IfPitAhead extends MarioCommand {
-    public IfPitAhead(GPConfiguration config) throws InvalidConfigurationException {
+public class IfEnemyBehind extends MarioCommand {
+    public IfEnemyBehind(GPConfiguration config) throws InvalidConfigurationException {
         super(config);
     }
 
@@ -18,18 +18,15 @@ public class IfPitAhead extends MarioCommand {
     public int execute_int(ProgramChromosome c, int n, Object[] args) {
         EBTAgent agent = getAgent(c);
         int radius = agent.getRadius();
-        boolean pitAhead = false;
+        boolean enemyBehind = false;
 
-        // Check for a pit that spans an entire column
-        for (int x = 1; x <= radius; x++) {
-            boolean columnPit = true;
-            for (int y = -1*radius; y <= -1; y++) {
-                columnPit = columnPit && (!agent.getTerrain(x, y));
+        for (int x = -1*radius; x <= -1; x++) {
+            for (int y = -1*radius; y <= radius; y++) {
+                enemyBehind = enemyBehind || agent.getEnemy(x, y);
             }
-            pitAhead = pitAhead || columnPit;
         }
 
-        if (pitAhead) {
+        if (enemyBehind) {
             return c.execute_int(n, 0, args);
         } else {
             return c.execute_int(n, 1, args);
@@ -38,11 +35,11 @@ public class IfPitAhead extends MarioCommand {
 
     @Override
     public String toString() {
-        return "if pit(ahead) then &1 else &2";
+        return "if enemy(behind) then &1 else &2";
     }
 
     @Override
     public String getName() {
-        return "IfPitAhead";
+        return "IfEnemyBehind";
     }
 }

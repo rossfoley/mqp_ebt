@@ -1,4 +1,4 @@
-package mqp.gp;
+package mqp.gp.command;
 
 import mqp.mario.EBTAgent;
 import org.jgap.InvalidConfigurationException;

@@ -1,6 +1,6 @@
 package mqp.ebt;
 
-import mqp.gp.*;
+import mqp.gp.command.*;
 import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
