@@ -14,8 +14,8 @@ import org.jgap.gp.impl.GPGenotype;
  */
 public class EBTEvolver {
     public static final int numGenerations = 2;
-    public static final int radius = 2;
-    public static final String runName = "ebtTest";
+    public static final int radius = 3;
+    public static final String runName = "ebtTestNewGenes";
     public static transient Logger LOGGER = Logger.getLogger(EBTEvolver.class);
 
     public static void main(String[] args) throws InvalidConfigurationException {

@@ -73,6 +73,22 @@ public class EBTAgent extends BasicMarioAIAgent {
     }
 
     /**
+     * Return true if Mario is on ground
+     * @return true if Mario is on ground
+     */
+    public boolean getMarioOnGround() {
+        return isMarioOnGround;
+    }
+
+    /**
+     * Return true if Mario can jump
+     * @return true if Mario can jump
+     */
+    public boolean getMarioCanJump() {
+        return isMarioAbleToJump;
+    }
+
+    /**
      * Determine if there is an object at a specified position in the scene
      * @param x x position in the scene
      * @param y y position in the scene
