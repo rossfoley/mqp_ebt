@@ -77,3 +77,323 @@
 [19.02.2015 06:55:37,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1032.0
 [19.02.2015 06:55:37,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Right, Jump)
 [19.02.2015 06:55:37,736] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[19.02.2015 07:10:06,919] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[19.02.2015 07:10:07,132] [main] INFO  org.jgap.gp.impl.GPGenotype  - Your configuration does not contain unused commands, this is good
+[19.02.2015 07:10:07,134] [main] INFO  mqp.ebt.EBTEvolver  - Starting evolution process
+[19.02.2015 07:10:34,327] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 1
+[19.02.2015 07:10:34,328] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 07:10:34,329] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 217 MB
+[19.02.2015 07:10:48,807] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 2
+[19.02.2015 07:10:48,807] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 07:10:48,807] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 208 MB
+[19.02.2015 07:10:48,840] [main] INFO  mqp.ebt.EBTEvolver  - Best EBT for Mario:
+[19.02.2015 07:10:48,841] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1032.0
+[19.02.2015 07:10:48,842] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if pit(ahead) then (if enemy(ahead) then (Right, Up) else (Right, Up)) else (if pit(ahead) then (Right, Up) else (Right, Up))
+[19.02.2015 07:10:48,842] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[19.02.2015 07:12:40,581] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[19.02.2015 07:12:40,695] [main] INFO  org.jgap.gp.impl.GPGenotype  - Your configuration does not contain unused commands, this is good
+[19.02.2015 07:12:40,697] [main] INFO  mqp.ebt.EBTEvolver  - Starting evolution process
+[19.02.2015 07:13:06,000] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 1
+[19.02.2015 07:13:06,001] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2376.0
+[19.02.2015 07:13:06,002] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7185 MB
+[19.02.2015 07:13:19,276] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 2
+[19.02.2015 07:13:19,277] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2376.0
+[19.02.2015 07:13:19,277] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6824 MB
+[19.02.2015 07:13:32,995] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 3
+[19.02.2015 07:13:32,995] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2376.0
+[19.02.2015 07:13:32,996] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6464 MB
+[19.02.2015 07:13:46,836] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 4
+[19.02.2015 07:13:46,837] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2376.0
+[19.02.2015 07:13:46,837] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6024 MB
+[19.02.2015 07:13:58,706] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 5
+[19.02.2015 07:13:58,706] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2647.0
+[19.02.2015 07:13:58,707] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5664 MB
+[19.02.2015 07:14:10,864] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 6
+[19.02.2015 07:14:10,864] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2694.0
+[19.02.2015 07:14:10,864] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7293 MB
+[19.02.2015 07:14:23,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 7
+[19.02.2015 07:14:23,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2831.0
+[19.02.2015 07:14:23,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6944 MB
+[19.02.2015 07:14:34,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 8
+[19.02.2015 07:14:34,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 2831.0
+[19.02.2015 07:14:34,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6595 MB
+[19.02.2015 07:14:45,592] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 9
+[19.02.2015 07:14:45,592] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:14:45,592] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6245 MB
+[19.02.2015 07:14:54,970] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 10
+[19.02.2015 07:14:54,971] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:14:54,971] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5896 MB
+[19.02.2015 07:15:05,782] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 11
+[19.02.2015 07:15:05,783] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:05,783] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7624 MB
+[19.02.2015 07:15:16,100] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 12
+[19.02.2015 07:15:16,101] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:16,101] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7272 MB
+[19.02.2015 07:15:26,412] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 13
+[19.02.2015 07:15:26,412] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:26,412] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6959 MB
+[19.02.2015 07:15:36,682] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 14
+[19.02.2015 07:15:36,682] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:36,682] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6634 MB
+[19.02.2015 07:15:46,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 15
+[19.02.2015 07:15:46,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:46,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6321 MB
+[19.02.2015 07:15:56,427] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 16
+[19.02.2015 07:15:56,428] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:15:56,428] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5968 MB
+[19.02.2015 07:16:06,384] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 17
+[19.02.2015 07:16:06,384] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:06,384] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5662 MB
+[19.02.2015 07:16:15,566] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 18
+[19.02.2015 07:16:15,566] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:15,567] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7350 MB
+[19.02.2015 07:16:24,436] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 19
+[19.02.2015 07:16:24,436] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:24,436] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7038 MB
+[19.02.2015 07:16:33,944] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 20
+[19.02.2015 07:16:33,944] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:33,944] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6765 MB
+[19.02.2015 07:16:43,090] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 21
+[19.02.2015 07:16:43,091] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:43,091] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6444 MB
+[19.02.2015 07:16:52,945] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 22
+[19.02.2015 07:16:52,945] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:16:52,946] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6171 MB
+[19.02.2015 07:17:02,585] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 23
+[19.02.2015 07:17:02,585] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:17:02,585] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5858 MB
+[19.02.2015 07:17:11,693] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 24
+[19.02.2015 07:17:11,693] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:17:11,694] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7544 MB
+[19.02.2015 07:17:23,260] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 25
+[19.02.2015 07:17:23,261] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3185.0
+[19.02.2015 07:17:23,261] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7269 MB
+[19.02.2015 07:17:33,952] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 26
+[19.02.2015 07:17:33,952] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:17:33,952] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6955 MB
+[19.02.2015 07:17:44,938] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 27
+[19.02.2015 07:17:44,939] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:17:44,939] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6640 MB
+[19.02.2015 07:17:55,740] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 28
+[19.02.2015 07:17:55,741] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:17:55,741] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6286 MB
+[19.02.2015 07:18:06,308] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 29
+[19.02.2015 07:18:06,308] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:06,308] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5966 MB
+[19.02.2015 07:18:16,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 30
+[19.02.2015 07:18:16,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:16,247] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5662 MB
+[19.02.2015 07:18:25,289] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 31
+[19.02.2015 07:18:25,289] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:25,290] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7346 MB
+[19.02.2015 07:18:35,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 32
+[19.02.2015 07:18:35,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:35,690] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7069 MB
+[19.02.2015 07:18:46,155] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 33
+[19.02.2015 07:18:46,156] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:46,156] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6753 MB
+[19.02.2015 07:18:56,190] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 34
+[19.02.2015 07:18:56,190] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:18:56,191] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6397 MB
+[19.02.2015 07:19:07,623] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 35
+[19.02.2015 07:19:07,623] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:19:07,623] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6121 MB
+[19.02.2015 07:19:17,381] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 36
+[19.02.2015 07:19:17,381] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:19:17,381] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5765 MB
+[19.02.2015 07:19:27,772] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 37
+[19.02.2015 07:19:27,772] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:19:27,772] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7780 MB
+[19.02.2015 07:19:39,077] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 38
+[19.02.2015 07:19:39,077] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:19:39,077] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7463 MB
+[19.02.2015 07:19:50,171] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 39
+[19.02.2015 07:19:50,171] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:19:50,171] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7147 MB
+[19.02.2015 07:20:01,493] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 40
+[19.02.2015 07:20:01,493] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:01,493] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6777 MB
+[19.02.2015 07:20:12,095] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 41
+[19.02.2015 07:20:12,095] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:12,095] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6461 MB
+[19.02.2015 07:20:22,874] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 42
+[19.02.2015 07:20:22,875] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:22,875] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6144 MB
+[19.02.2015 07:20:34,184] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 43
+[19.02.2015 07:20:34,184] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:34,185] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5823 MB
+[19.02.2015 07:20:45,523] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 44
+[19.02.2015 07:20:45,524] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:45,524] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5453 MB
+[19.02.2015 07:20:56,689] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 45
+[19.02.2015 07:20:56,689] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:20:56,689] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7780 MB
+[19.02.2015 07:21:07,047] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 46
+[19.02.2015 07:21:07,048] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:21:07,048] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7462 MB
+[19.02.2015 07:21:17,889] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 47
+[19.02.2015 07:21:17,890] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:21:17,890] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7145 MB
+[19.02.2015 07:21:28,359] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 48
+[19.02.2015 07:21:28,359] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:21:28,359] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6828 MB
+[19.02.2015 07:21:39,284] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 49
+[19.02.2015 07:21:39,284] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:21:39,284] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6510 MB
+[19.02.2015 07:21:49,695] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 50
+[19.02.2015 07:21:49,695] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:21:49,695] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6193 MB
+[19.02.2015 07:22:01,218] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 51
+[19.02.2015 07:22:01,218] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:01,218] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5876 MB
+[19.02.2015 07:22:12,043] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 52
+[19.02.2015 07:22:12,043] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:12,043] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5506 MB
+[19.02.2015 07:22:22,855] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 53
+[19.02.2015 07:22:22,856] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:22,856] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7885 MB
+[19.02.2015 07:22:33,636] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 54
+[19.02.2015 07:22:33,637] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:33,637] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7514 MB
+[19.02.2015 07:22:44,803] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 55
+[19.02.2015 07:22:44,804] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:44,804] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7196 MB
+[19.02.2015 07:22:54,964] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 56
+[19.02.2015 07:22:54,964] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:22:54,964] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6878 MB
+[19.02.2015 07:23:06,854] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 57
+[19.02.2015 07:23:06,855] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:23:06,855] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6557 MB
+[19.02.2015 07:23:17,133] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 58
+[19.02.2015 07:23:17,134] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:23:17,134] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6186 MB
+[19.02.2015 07:23:27,153] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 59
+[19.02.2015 07:23:27,153] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:23:27,153] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5868 MB
+[19.02.2015 07:23:38,343] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 60
+[19.02.2015 07:23:38,344] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:23:38,344] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5603 MB
+[19.02.2015 07:23:49,782] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 61
+[19.02.2015 07:23:49,782] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:23:49,783] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7884 MB
+[19.02.2015 07:24:02,145] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 62
+[19.02.2015 07:24:02,145] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:02,145] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7566 MB
+[19.02.2015 07:24:13,644] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 63
+[19.02.2015 07:24:13,644] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:13,644] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7195 MB
+[19.02.2015 07:24:24,562] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 64
+[19.02.2015 07:24:24,563] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:24,563] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6875 MB
+[19.02.2015 07:24:35,663] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 65
+[19.02.2015 07:24:35,663] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:35,663] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6556 MB
+[19.02.2015 07:24:47,266] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 66
+[19.02.2015 07:24:47,266] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:47,266] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6185 MB
+[19.02.2015 07:24:57,649] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 67
+[19.02.2015 07:24:57,649] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:24:57,650] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5867 MB
+[19.02.2015 07:25:09,239] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 68
+[19.02.2015 07:25:09,239] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3239.0
+[19.02.2015 07:25:09,239] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5549 MB
+[19.02.2015 07:25:21,401] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 69
+[19.02.2015 07:25:21,401] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:25:21,401] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7831 MB
+[19.02.2015 07:25:32,555] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 70
+[19.02.2015 07:25:32,555] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:25:32,555] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7513 MB
+[19.02.2015 07:25:44,019] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 71
+[19.02.2015 07:25:44,019] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:25:44,020] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7141 MB
+[19.02.2015 07:25:55,564] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 72
+[19.02.2015 07:25:55,564] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:25:55,564] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6822 MB
+[19.02.2015 07:26:05,643] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 73
+[19.02.2015 07:26:05,644] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:05,644] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6451 MB
+[19.02.2015 07:26:16,550] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 74
+[19.02.2015 07:26:16,551] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:16,551] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6132 MB
+[19.02.2015 07:26:26,390] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 75
+[19.02.2015 07:26:26,391] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:26,391] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5814 MB
+[19.02.2015 07:26:37,817] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 76
+[19.02.2015 07:26:37,817] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:37,817] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5548 MB
+[19.02.2015 07:26:48,463] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 77
+[19.02.2015 07:26:48,464] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:48,464] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7829 MB
+[19.02.2015 07:26:59,271] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 78
+[19.02.2015 07:26:59,271] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:26:59,271] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7510 MB
+[19.02.2015 07:27:10,068] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 79
+[19.02.2015 07:27:10,068] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:27:10,069] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7191 MB
+[19.02.2015 07:27:20,724] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 80
+[19.02.2015 07:27:20,725] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:27:20,725] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6872 MB
+[19.02.2015 07:27:32,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 81
+[19.02.2015 07:27:32,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:27:32,217] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6554 MB
+[19.02.2015 07:27:43,646] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 82
+[19.02.2015 07:27:43,647] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:27:43,647] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6235 MB
+[19.02.2015 07:27:53,991] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 83
+[19.02.2015 07:27:53,992] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:27:53,992] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5916 MB
+[19.02.2015 07:28:04,924] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 84
+[19.02.2015 07:28:04,925] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:28:04,925] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5596 MB
+[19.02.2015 07:28:16,267] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 85
+[19.02.2015 07:28:16,268] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:28:16,268] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7936 MB
+[19.02.2015 07:28:27,514] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 86
+[19.02.2015 07:28:27,515] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:28:27,515] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7564 MB
+[19.02.2015 07:28:38,808] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 87
+[19.02.2015 07:28:38,808] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:28:38,808] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7245 MB
+[19.02.2015 07:28:50,098] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 88
+[19.02.2015 07:28:50,099] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:28:50,099] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6873 MB
+[19.02.2015 07:29:01,163] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 89
+[19.02.2015 07:29:01,163] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:01,163] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6554 MB
+[19.02.2015 07:29:12,411] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 90
+[19.02.2015 07:29:12,411] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:12,411] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6235 MB
+[19.02.2015 07:29:22,744] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 91
+[19.02.2015 07:29:22,745] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:22,745] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5863 MB
+[19.02.2015 07:29:33,303] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 92
+[19.02.2015 07:29:33,303] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:33,304] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5544 MB
+[19.02.2015 07:29:44,387] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 93
+[19.02.2015 07:29:44,387] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:44,387] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7883 MB
+[19.02.2015 07:29:55,116] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 94
+[19.02.2015 07:29:55,116] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:29:55,116] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7564 MB
+[19.02.2015 07:30:06,395] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 95
+[19.02.2015 07:30:06,395] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:30:06,395] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 7245 MB
+[19.02.2015 07:30:17,511] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 96
+[19.02.2015 07:30:17,511] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:30:17,511] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6926 MB
+[19.02.2015 07:30:28,368] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 97
+[19.02.2015 07:30:28,368] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:30:28,368] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6607 MB
+[19.02.2015 07:30:38,451] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 98
+[19.02.2015 07:30:38,451] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:30:38,451] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 6235 MB
+[19.02.2015 07:30:49,022] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 99
+[19.02.2015 07:30:49,023] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:30:49,023] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5969 MB
+[19.02.2015 07:31:00,331] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 100
+[19.02.2015 07:31:00,331] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 3687.0
+[19.02.2015 07:31:00,331] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 5651 MB
+[19.02.2015 07:31:00,340] [main] INFO  mqp.ebt.EBTEvolver  - Best EBT for Mario:
+[19.02.2015 07:31:00,340] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 3687.0
+[19.02.2015 07:31:00,340] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if enemy(behind) then (if pit(ahead) then (Right, Jump, Run/Fire, Up) else (if enemy(ahead) then (if enemy(behind) then (Left, Right) else (Right, Down, Run/Fire)) else (Right, Down, Run/Fire))) else (if pit(ahead) then (if enemy(behind) then (if pit(ahead) then (Down, Jump, Run/Fire) else (Right, Run/Fire)) else (if wall(ahead) then (Right, Up) else (if wall(ahead) then (if enemy(ahead) then (if wall(ahead) then (if pit(ahead) then (Right, Jump, Run/Fire, Up) else (if enemy(ahead) then (if wall(ahead) then (Right, Up) else (if wall(ahead) then (if enemy(ahead) then (if enemy(behind) then (Left, Right) else (Right, Down, Run/Fire)) else (Right, Down, Run/Fire)) else (Right, Run/Fire))) else (Right, Down, Run/Fire))) else (Down, Up)) else (Right, Down, Run/Fire)) else (Right, Run/Fire)))) else (if wall(ahead) then (if wall(ahead) then (Right, Jump, Run/Fire, Up) else (Jump, Run/Fire)) else (if enemy(behind) then (Left, Right) else (Right, Down, Run/Fire))))
+[19.02.2015 07:31:00,341] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 13

@@ -12,9 +12,9 @@ import java.io.FileNotFoundException;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTRunner {
-    public static String runName = "ebtTest";
-    public static int generation = 2;
-    public static int radius = 1;
+    public static String runName = "radius2test";
+    public static int generation = 100;
+    public static int radius = 2;
 
     public static void main(String[] args) throws FileNotFoundException {
         // Set Mario options
