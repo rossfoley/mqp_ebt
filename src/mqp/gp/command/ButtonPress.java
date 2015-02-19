@@ -24,7 +24,7 @@ public class ButtonPress extends CommandGene implements IMutateable, ICloneable 
     protected int lowerBound = 0;
     protected int upperBound = 63;
 
-    public transient final String[] buttons = {"Left", "Right", "Down", "Jump", "Run/Fire", "Up"};
+    public static final String[] buttons = {"Left", "Right", "Down", "Jump", "Run/Fire", "Up"};
 
     public ButtonPress(GPConfiguration config) throws InvalidConfigurationException {
         super(config, 0, CommandGene.IntegerClass, 0, null);
