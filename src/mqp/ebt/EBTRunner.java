@@ -1,44 +1,36 @@
 package mqp.ebt;
 
 import ch.idsia.tools.MarioAIOptions;
-import com.thoughtworks.xstream.XStream;
 import mqp.mario.EBTAgent;
 import mqp.mario.MQPMarioTask;
-import org.jgap.gp.impl.GPProgram;
+import org.jgap.gp.IGPProgram;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
 
 /**
  * Main function that runs a specific EBT
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTRunner {
-    public static void main(String[] args) {
-        String runName = "ebtTest";
-        String fileName = "test.xml";
-        int radius = 1;
+    public static String runName = "ebtTest";
+    public static int generation = 2;
+    public static int radius = 1;
 
+    public static void main(String[] args) throws FileNotFoundException {
         // Set Mario options
         MarioAIOptions marioAIOptions = new MarioAIOptions();
         marioAIOptions.setVisualization(true);
         marioAIOptions.setFPS(30);
         MQPMarioTask task = new MQPMarioTask(marioAIOptions);
 
-        try {
-            XStream xstream = new XStream();
-            File file = new File("db/" + runName + "/" + fileName);
-            InputStream is = new FileInputStream(file);
-            GPProgram gp = (GPProgram) xstream.fromXML(is);
-            EBTAgent agent = new EBTAgent(gp, radius);
-            task.evaluate(agent);
-        } catch (FileNotFoundException e) {
-            System.out.println("Error in reading file!");
-            System.exit(1);
-        }
+        // Load the EBT from the file
+        IGPProgram gp = MarioXMLManager.loadEBT(runName, generation);
+        EBTAgent agent = new EBTAgent(gp, radius);
 
+        // Evaluate the agent
+        task.evaluate(agent);
+
+        // Exit
         System.exit(0);
     }
 }

@@ -64,3 +64,16 @@
 [19.02.2015 05:58:55,763] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1033.0
 [19.02.2015 05:58:55,763] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: if wall(ahead) then (if wall(ahead) then (Right, Run/Fire, Up) else (if pit(ahead) then (if enemy(behind) then (if enemy(ahead) then (Right, Run/Fire, Up) else (Right, Run/Fire, Up)) else (if enemy(behind) then (Right, Run/Fire, Up) else (Right, Run/Fire, Up))) else (if pit(ahead) then (if wall(ahead) then (Right, Run/Fire, Up) else (Right, Run/Fire, Up)) else (if wall(ahead) then (Right, Run/Fire, Up) else (Right, Run/Fire, Up))))) else (if wall(ahead) then (if pit(ahead) then (Right, Run/Fire, Up) else (if pit(ahead) then (Right, Down, Jump, Up) else (if enemy(behind) then (Right, Down, Jump, Up) else (Right, Down, Jump, Up)))) else (if enemy(behind) then (Right, Jump) else (Right, Jump)))
 [19.02.2015 05:58:55,764] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[19.02.2015 06:54:45,580] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[19.02.2015 06:54:45,911] [main] INFO  org.jgap.gp.impl.GPGenotype  - Your configuration does not contain unused commands, this is good
+[19.02.2015 06:54:45,914] [main] INFO  mqp.ebt.EBTEvolver  - Starting evolution process
+[19.02.2015 06:55:19,388] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 1
+[19.02.2015 06:55:19,390] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 06:55:19,391] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 458 MB
+[19.02.2015 06:55:37,615] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Results for Generation 2
+[19.02.2015 06:55:37,616] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Best Fitness: 1032.0
+[19.02.2015 06:55:37,617] [main] INFO  mqp.gp.event.MarioEvolvedListener  - Free Memory: 414 MB
+[19.02.2015 06:55:37,734] [main] INFO  mqp.ebt.EBTEvolver  - Best EBT for Mario:
+[19.02.2015 06:55:37,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1032.0
+[19.02.2015 06:55:37,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Right, Jump)
+[19.02.2015 06:55:37,736] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
