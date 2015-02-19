@@ -11,7 +11,7 @@ import org.jgap.gp.impl.GPGenotype;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTMain {
-    public static final int numGenerations = 10;
+    public static final int numGenerations = 5;
     public static final int radius = 1;
     public static transient Logger LOGGER = Logger.getLogger(EBTMain.class);
 
