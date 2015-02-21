@@ -12,9 +12,9 @@ import java.io.BufferedReader;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTCSVConverter {
-    private final String runName = "radius1";
+    private final String runName = "radius2";
     private final int minGen = 1;
-    private final int maxGen = 100;
+    private final int maxGen = 1000;
     private final int interval = 1; //each one
 
     /**
