@@ -21,7 +21,7 @@ import com.thoughtworks.xstream.io.*;
 import com.thoughtworks.xstream.mapper.*;
 
 /**
- * An abstract XSTream converter that offers services for default marshalling
+ * An abstract XSTream convert that offers services for default marshalling
  * and unmarshalling of objects.
  *
  * @author Klaus Meffert

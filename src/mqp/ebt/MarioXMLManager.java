@@ -1,7 +1,7 @@
 package mqp.ebt;
 
 import com.thoughtworks.xstream.XStream;
-import org.jgap.gp.IGPProgram;
+import org.jgap.gp.impl.GPProgram;
 
 import java.io.*;
 
@@ -14,18 +14,17 @@ public class MarioXMLManager {
         return "db/" + runName + "/generation" + generation + ".xml";
     }
 
-    public static IGPProgram loadEBT(String fileName) throws FileNotFoundException {
+    public static GPProgram loadEBT(String fileName) throws FileNotFoundException {
         XStream xstream = new XStream();
-        InputStream is = new FileInputStream(new File(fileName));
-        return (IGPProgram) xstream.fromXML(is);
+        return (GPProgram) xstream.fromXML(new File(fileName));
     }
 
-    public static IGPProgram loadEBT(String runName, int generation) throws FileNotFoundException {
+    public static GPProgram loadEBT(String runName, int generation) throws FileNotFoundException {
         return loadEBT(getFileName(runName, generation));
     }
 
-    public static void writeEBT(IGPProgram gp, String fileName) throws FileNotFoundException {
-        // Initialize the file and converter
+    public static void writeEBT(GPProgram gp, String fileName) throws IOException {
+        // Initialize the file and convert
         XStream xstream = new XStream();
         File file = new File(fileName);
 
@@ -35,9 +34,10 @@ public class MarioXMLManager {
         // Write the file
         FileOutputStream os = new FileOutputStream(file);
         xstream.toXML(gp, os);
+        os.close();
     }
 
-    public static void writeEBT(IGPProgram gp, String runName, int generation) throws FileNotFoundException {
+    public static void writeEBT(GPProgram gp, String runName, int generation) throws IOException {
         writeEBT(gp, getFileName(runName, generation));
     }
 }

@@ -1,5 +1,9 @@
 package mqp.ebt.tool;
 
+import mqp.ebt.MarioXMLManager;
+import org.jgap.gp.impl.GPProgram;
+import org.jgap.gp.impl.ProgramChromosome;
+
 import java.io.FileReader;
 import java.io.File;
 import java.io.IOException;
@@ -12,60 +16,60 @@ import java.io.BufferedReader;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTCSVConverter {
-    private final String runName = "radius2";
-    private final int minGen = 1;
-    private final int maxGen = 1000;
-    private final int interval = 1; //each one
+    public final String runName = "radius3";
+    public final int minGen = 1;
+    public final int maxGen = 1000;
+    public final int interval = 1; //each one
+    private BufferedWriter writer;
 
     /**
      * Converts all generations between minGen and maxGen into a CSV file
      * Only taking the specified counts
      * @throws IOException Hopefully not used.
      */
-    public void converter() throws IOException{
-        //Buffered Writer
-        String bwFileName = "graph/" + runName + ".csv";
+    public void convert() throws IOException {
+        // Initialize buffered writer
+        String bwFileName = "csv/" + runName + ".csv";
         File bwFile = new File(bwFileName);
         bwFile.getParentFile().mkdirs();
-        BufferedWriter bw = new BufferedWriter(new FileWriter(bwFile));
+        writer = new BufferedWriter(new FileWriter(bwFile));
 
-        //First line
-        bw.write("Generation,Maximum Fitness");
-        bw.newLine();
-        bw.flush();
+        // CSV Header
+        writeLine("Generation,Champion Fitness,Champion Complexity,Champion Depth");
 
-        for(int gen = minGen; gen <= maxGen; gen++) {
-            if(gen%interval == 0 || gen == 1) {
-                //Buffered reader
-                String brFileName = "db/" + runName + "/generation" + gen + ".xml";
-                File brfil = new File(brFileName);
-                BufferedReader br = new BufferedReader(new FileReader(brfil));
+        for (int generation = minGen; generation <= maxGen; generation++) {
+            if ((generation % interval) == 0 || generation == 1) {
+                GPProgram gp = MarioXMLManager.loadEBT(runName, generation);
+                ProgramChromosome chromosome = gp.getChromosome(0);
 
-                //Get fitness
-                br.readLine();
-                String fit = br.readLine();
-                int index = fit.indexOf('.');
-                fit = fit.substring(19, index);
+                int fitness = (int) gp.getFitnessValue();
+                int complexity = chromosome.getSize(0);
+                int depth = chromosome.getDepth(0);
 
-                //Write a line
-                bw.write(gen + "," + fit);
-                bw.newLine();
-                bw.flush();
-
-                //Close the files
-                br.close();
+                writeLine(String.format("%d,%d,%d,%d", generation, fitness, complexity, depth));
             }
         }
-        bw.close();
+        writer.close();
+    }
+
+    /**
+     * Write a single line followed by newline
+     * @param line the line to write
+     * @throws IOException
+     */
+    private void writeLine(String line) throws IOException {
+        writer.write(line);
+        writer.newLine();
+        writer.flush();
     }
 
     /**
      * Main method that just runs an instance
-     * @param args The command line arguements
+     * @param args The command line arguments
      * @throws IOException Hopefully unused
      */
     public static void main(String[] args) throws IOException {
         EBTCSVConverter cv = new EBTCSVConverter();
-        cv.converter();
+        cv.convert();
     }
 }
