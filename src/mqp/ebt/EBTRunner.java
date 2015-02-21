@@ -12,8 +12,8 @@ import java.io.FileNotFoundException;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTRunner {
-    public static String runName = "radius1";
-    public static int generation = 100;
+    public static String runName = "radius1real";
+    public static int generation = 1000;
     public static int radius = 1;
 
     public static void main(String[] args) throws FileNotFoundException {
@@ -26,9 +26,17 @@ public class EBTRunner {
         // Load the EBT from the file
         IGPProgram gp = MarioXMLManager.loadEBT(runName, generation);
         EBTAgent agent = new EBTAgent(gp, radius);
+        int[] difficulties = {0, 0, 0, 0, 0, 0, 0, 0, 1, 1};
 
         // Evaluate the agent
-        task.evaluate(agent);
+//        task.evaluate(agent);
+
+        int seed = 0;
+        for (int difficulty : difficulties) {
+            float fitness = task.evaluateSingleLevel(agent, difficulty, seed);
+            System.out.println("Fitness for difficulty " + difficulty + " and seed " + seed + ": " + fitness);
+            seed++;
+        }
 
         // Exit
         System.exit(0);

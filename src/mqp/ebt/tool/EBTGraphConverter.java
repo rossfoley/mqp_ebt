@@ -19,8 +19,8 @@ import java.io.IOException;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTGraphConverter {
-    public static String runName = "radius1";
-    public static int generation = 100;
+    public static String runName = "radius1real";
+    public static int generation = 1000;
 
     public static ProgramChromosome chromosome;
     public static DirectedGraph<String, DefaultEdge> graph;
