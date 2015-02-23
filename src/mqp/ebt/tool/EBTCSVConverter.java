@@ -16,7 +16,7 @@ import java.io.BufferedReader;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTCSVConverter {
-    public final String runName = "radius3";
+    public final String runName = "radius3_1000";
     public final int minGen = 1;
     public final int maxGen = 1000;
     public final int interval = 1; //each one
@@ -28,6 +28,8 @@ public class EBTCSVConverter {
      * @throws IOException Hopefully not used.
      */
     public void convert() throws IOException {
+        System.out.println("Converting run " + runName + " from generation " + minGen + " to " + maxGen);
+
         // Initialize buffered writer
         String bwFileName = "csv/" + runName + ".csv";
         File bwFile = new File(bwFileName);
@@ -71,5 +73,6 @@ public class EBTCSVConverter {
     public static void main(String[] args) throws IOException {
         EBTCSVConverter cv = new EBTCSVConverter();
         cv.convert();
+        System.out.println("Finished converting");
     }
 }
