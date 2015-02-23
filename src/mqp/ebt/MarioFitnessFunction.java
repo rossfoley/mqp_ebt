@@ -41,7 +41,7 @@ public class MarioFitnessFunction extends GPFitnessFunction {
         EBTAgent agent = new EBTAgent(ebt, radius);
 
         // Evaluate the agent
-        double fitness = task.evaluate(agent);
+        double fitness = Math.max(0, task.evaluate(agent));
         ebt.setFitnessValue(fitness);
         return fitness;
     }
