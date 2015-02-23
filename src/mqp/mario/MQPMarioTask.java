@@ -11,7 +11,7 @@ import ch.idsia.tools.MarioAIOptions;
  */
 public class MQPMarioTask extends BasicTask implements Task, Cloneable {
     private int uniqueSeed;
-    private int difficulties[] = {0, 0, 1, 1, 3};
+    private int difficulties[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
 
     /**
      * MQPMarioTask Constructor

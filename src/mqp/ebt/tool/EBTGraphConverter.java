@@ -19,14 +19,14 @@ import java.io.IOException;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTGraphConverter {
-    public static String runName = "radius1real";
+    public static String runName = "radius1_1000";
     public static int generation = 1000;
 
     public static ProgramChromosome chromosome;
     public static DirectedGraph<String, DefaultEdge> graph;
 
     public static void main(String[] args) throws IOException {
-        GPProgram gp = (GPProgram) MarioXMLManager.loadEBT(runName, generation);
+        GPProgram gp = MarioXMLManager.loadEBT(runName, generation);
         graph = new SimpleDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
         chromosome = gp.getChromosome(0);
 

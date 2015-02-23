@@ -1,5 +1,5 @@
 <org.jgap.gp.impl.GPProgram>
-  <m__fitnessValue>1666.0</m__fitnessValue>
+  <m__fitnessValue>2999.0</m__fitnessValue>
   <m__conf serialization="custom">
     <org.jgap.Configuration>
       <default>
@@ -50,7 +50,7 @@
         <m__randomGenerator class="org.jgap.impl.StockRandomGenerator" serialization="custom">
           <java.util.Random>
             <default>
-              <seed>162858541860566</seed>
+              <seed>165539966188741</seed>
               <nextNextGaussian>0.0</nextNextGaussian>
               <haveNextNextGaussian>false</haveNextNextGaussian>
             </default>
@@ -170,8 +170,8 @@
                 <int>0</int>
                 <int>0</int>
                 <int>0</int>
-                <int>0</int>
-                <int>0</int>
+                <int>1</int>
+                <int>1</int>
                 <int>0</int>
                 <int>0</int>
                 <int>0</int>
@@ -182,8 +182,8 @@
               <isMarioAbleToJump>false</isMarioAbleToJump>
               <isMarioAbleToShoot>false</isMarioAbleToShoot>
               <isMarioCarrying>false</isMarioCarrying>
-              <getKillsTotal>0</getKillsTotal>
-              <getKillsByFire>0</getKillsByFire>
+              <getKillsTotal>1</getKillsTotal>
+              <getKillsByFire>1</getKillsByFire>
               <getKillsByStomp>0</getKillsByStomp>
               <getKillsByShell>0</getKillsByShell>
               <receptiveFieldWidth>19</receptiveFieldWidth>
@@ -532,7 +532,7 @@
                       <m__compareAppData>false</m__compareAppData>
                       <m__subReturnType>0</m__subReturnType>
                       <nodeIndex>0</nodeIndex>
-                      <currentValue>25</currentValue>
+                      <currentValue>33</currentValue>
                       <lowerBound>0</lowerBound>
                       <upperBound>63</upperBound>
                     </mqp.gp.command.ButtonPress>
@@ -572,65 +572,65 @@
                       <int>1</int>
                       <int>2</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>2</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>1</int>
                       <int>2</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>2</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
                       <int>3</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
-                      <int>4</int>
-                      <int>5</int>
-                      <int>5</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
+                      <int>0</int>
                       <int>0</int>
                       <int>0</int>
                       <int>0</int>
@@ -771,546 +771,8 @@
                     </m__depth>
                     <argTypes reference="../../../m__argTypes/java-class-array"/>
                     <m__genes>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[3]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
+                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition"/>
                       <mqp.gp.command.IfMarioOnGround reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>39</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>39</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>18</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfMarioCanJump reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[7]"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfMarioOnGround reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>57</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[2]"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[6]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[4]"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[3]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[3]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[9]"/>
-                      <mqp.gp.command.IfMarioCanJump reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[3]"/>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[4]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[7]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[7]"/>
-                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[5]"/>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
-                      <mqp.gp.command.ButtonPress>
-                        <m__configuration reference="../../../../../../../../../../.."/>
-                        <m__noValidation>false</m__noValidation>
-                        <m__returnType>java.lang.Integer</m__returnType>
-                        <m__arity>0</m__arity>
-                        <m__arityMin>0</m__arityMin>
-                        <m__arityMax>0</m__arityMax>
-                        <m__integerType>true</m__integerType>
-                        <m__floatType>false</m__floatType>
-                        <m__energy>0.0</m__energy>
-                        <m__compareAppData>false</m__compareAppData>
-                        <m__subReturnType>0</m__subReturnType>
-                        <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
-                        <lowerBound>0</lowerBound>
-                        <upperBound>63</upperBound>
-                      </mqp.gp.command.ButtonPress>
                       <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[6]"/>
                       <mqp.gp.command.ButtonPress>
                         <m__configuration reference="../../../../../../../../../../.."/>
@@ -1325,7 +787,7 @@
                         <m__compareAppData>false</m__compareAppData>
                         <m__subReturnType>0</m__subReturnType>
                         <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
+                        <currentValue>27</currentValue>
                         <lowerBound>0</lowerBound>
                         <upperBound>63</upperBound>
                       </mqp.gp.command.ButtonPress>
@@ -1342,10 +804,164 @@
                         <m__compareAppData>false</m__compareAppData>
                         <m__subReturnType>0</m__subReturnType>
                         <nodeIndex>0</nodeIndex>
-                        <currentValue>25</currentValue>
+                        <currentValue>27</currentValue>
                         <lowerBound>0</lowerBound>
                         <upperBound>63</upperBound>
                       </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[5]"/>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>27</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>27</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[3]"/>
+                      <mqp.gp.command.IfBlockAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[6]"/>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>27</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>27</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>33</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <mqp.gp.command.ButtonPress>
+                        <m__configuration reference="../../../../../../../../../../.."/>
+                        <m__noValidation>false</m__noValidation>
+                        <m__returnType>java.lang.Integer</m__returnType>
+                        <m__arity>0</m__arity>
+                        <m__arityMin>0</m__arityMin>
+                        <m__arityMax>0</m__arityMax>
+                        <m__integerType>true</m__integerType>
+                        <m__floatType>false</m__floatType>
+                        <m__energy>0.0</m__energy>
+                        <m__compareAppData>false</m__compareAppData>
+                        <m__subReturnType>0</m__subReturnType>
+                        <nodeIndex>0</nodeIndex>
+                        <currentValue>33</currentValue>
+                        <lowerBound>0</lowerBound>
+                        <upperBound>63</upperBound>
+                      </mqp.gp.command.ButtonPress>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
+                      <null/>
                       <null/>
                       <null/>
                       <null/>
@@ -1699,10 +1315,10 @@
               <distancePassedCells>0</distancePassedCells>
               <distancePassedPhys>0</distancePassedPhys>
               <flowersDevoured>0</flowersDevoured>
-              <killsByFire>0</killsByFire>
+              <killsByFire>1</killsByFire>
               <killsByShell>0</killsByShell>
               <killsByStomp>0</killsByStomp>
-              <killsTotal>0</killsTotal>
+              <killsTotal>1</killsTotal>
               <marioMode>0</marioMode>
               <marioStatus>0</marioStatus>
               <mushroomsDevoured>0</mushroomsDevoured>
@@ -6332,7 +5948,7 @@
                 </int-array>
               </marioTrace>
               <marioTraceFileName></marioTraceFileName>
-              <evaluationStarted>1424655993693</evaluationStarted>
+              <evaluationStarted>1424658687799</evaluationStarted>
               <evaluationFinished>0</evaluationFinished>
               <evaluationLasted>0</evaluationLasted>
             </evaluationInfo>
@@ -6349,96 +5965,16 @@
           <radius>1</radius>
         </m__objectiveFunction>
         <m__prototypeProgram class="org.jgap.gp.impl.GPProgram">
-          <m__fitnessValue>160.0</m__fitnessValue>
+          <m__fitnessValue>-1.0</m__fitnessValue>
           <m__conf reference="../../../.."/>
           <m__types reference="../../m__objectiveFunction/task/agent/ebt/m__types"/>
           <m__argTypes reference="../../m__objectiveFunction/task/agent/ebt/m__argTypes"/>
           <m__nodeSets reference="../../m__objectiveFunction/task/agent/ebt/m__nodeSets"/>
           <m__maxNodes>200</m__maxNodes>
-          <m__applicationData class="mqp.mario.EBTAgent">
-            <action>
-              <boolean>false</boolean>
-              <boolean>false</boolean>
-              <boolean>false</boolean>
-              <boolean>false</boolean>
-              <boolean>false</boolean>
-              <boolean>false</boolean>
-            </action>
-            <name>EBTAgent</name>
-            <levelScene reference="../../../m__objectiveFunction/task/agent/levelScene"/>
-            <enemies reference="../../../m__objectiveFunction/task/agent/enemies"/>
-            <mergedObservation reference="../../../m__objectiveFunction/task/agent/mergedObservation"/>
-            <marioFloatPos reference="../../../m__objectiveFunction/task/agent/marioFloatPos"/>
-            <enemiesFloatPos/>
-            <marioState reference="../../../m__objectiveFunction/task/agent/marioState"/>
-            <marioStatus>0</marioStatus>
-            <marioMode>0</marioMode>
-            <isMarioOnGround>true</isMarioOnGround>
-            <isMarioAbleToJump>false</isMarioAbleToJump>
-            <isMarioAbleToShoot>true</isMarioAbleToShoot>
-            <isMarioCarrying>false</isMarioCarrying>
-            <getKillsTotal>0</getKillsTotal>
-            <getKillsByFire>0</getKillsByFire>
-            <getKillsByStomp>0</getKillsByStomp>
-            <getKillsByShell>0</getKillsByShell>
-            <receptiveFieldWidth>19</receptiveFieldWidth>
-            <receptiveFieldHeight>19</receptiveFieldHeight>
-            <marioEgoRow>9</marioEgoRow>
-            <marioEgoCol>9</marioEgoCol>
-            <zLevelScene>1</zLevelScene>
-            <zLevelEnemies>0</zLevelEnemies>
-            <ebt class="org.jgap.gp.impl.GPProgram" reference="../.."/>
-            <radius>1</radius>
-          </m__applicationData>
           <m__chromosomes>
             <org.jgap.gp.impl.ProgramChromosome>
               <m__configuration reference="../../../../../.."/>
-              <m__ind class="org.jgap.gp.impl.GPProgram">
-                <m__fitnessValue>160.0</m__fitnessValue>
-                <m__conf reference="../../../../../../.."/>
-                <m__types reference="../../../../../m__objectiveFunction/task/agent/ebt/m__types"/>
-                <m__argTypes reference="../../../../../m__objectiveFunction/task/agent/ebt/m__argTypes"/>
-                <m__nodeSets reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets"/>
-                <m__maxNodes>200</m__maxNodes>
-                <m__applicationData class="mqp.mario.EBTAgent">
-                  <action>
-                    <boolean>false</boolean>
-                    <boolean>false</boolean>
-                    <boolean>false</boolean>
-                    <boolean>false</boolean>
-                    <boolean>false</boolean>
-                    <boolean>false</boolean>
-                  </action>
-                  <name>EBTAgent</name>
-                  <levelScene reference="../../../../../../m__objectiveFunction/task/agent/levelScene"/>
-                  <enemies reference="../../../../../../m__objectiveFunction/task/agent/enemies"/>
-                  <mergedObservation reference="../../../../../../m__objectiveFunction/task/agent/mergedObservation"/>
-                  <marioFloatPos reference="../../../../../../m__objectiveFunction/task/agent/marioFloatPos"/>
-                  <enemiesFloatPos/>
-                  <marioState reference="../../../../../../m__objectiveFunction/task/agent/marioState"/>
-                  <marioStatus>0</marioStatus>
-                  <marioMode>0</marioMode>
-                  <isMarioOnGround>true</isMarioOnGround>
-                  <isMarioAbleToJump>false</isMarioAbleToJump>
-                  <isMarioAbleToShoot>true</isMarioAbleToShoot>
-                  <isMarioCarrying>false</isMarioCarrying>
-                  <getKillsTotal>0</getKillsTotal>
-                  <getKillsByFire>0</getKillsByFire>
-                  <getKillsByStomp>0</getKillsByStomp>
-                  <getKillsByShell>0</getKillsByShell>
-                  <receptiveFieldWidth>19</receptiveFieldWidth>
-                  <receptiveFieldHeight>19</receptiveFieldHeight>
-                  <marioEgoRow>9</marioEgoRow>
-                  <marioEgoCol>9</marioEgoCol>
-                  <zLevelScene>1</zLevelScene>
-                  <zLevelEnemies>0</zLevelEnemies>
-                  <ebt class="org.jgap.gp.impl.GPProgram" reference="../.."/>
-                  <radius>1</radius>
-                </m__applicationData>
-                <m__chromosomes>
-                  <org.jgap.gp.impl.ProgramChromosome reference="../../.."/>
-                </m__chromosomes>
-              </m__ind>
+              <m__ind class="org.jgap.gp.impl.GPProgram" reference="../../.."/>
               <m__functionSet>
                 <mqp.gp.command.IfBlockAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition"/>
                 <mqp.gp.command.IfEnemyAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
@@ -6666,8 +6202,8 @@
               </m__depth>
               <argTypes reference="../../../../m__objectiveFunction/task/agent/ebt/m__argTypes/java-class-array"/>
               <m__genes>
-                <mqp.gp.command.IfBlockAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[7]"/>
-                <mqp.gp.command.IfBlockAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
+                <mqp.gp.command.IfBlockAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
+                <mqp.gp.command.IfEnemyAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[8]"/>
                 <mqp.gp.command.ButtonPress>
                   <m__configuration reference="../../../../../../../.."/>
                   <m__noValidation>false</m__noValidation>
@@ -6702,7 +6238,7 @@
                   <lowerBound>0</lowerBound>
                   <upperBound>63</upperBound>
                 </mqp.gp.command.ButtonPress>
-                <mqp.gp.command.IfMarioCanJump reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
+                <mqp.gp.command.IfBlockAtPosition reference="../../../../../m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition"/>
                 <mqp.gp.command.ButtonPress>
                   <m__configuration reference="../../../../../../../.."/>
                   <m__noValidation>false</m__noValidation>
@@ -6733,7 +6269,7 @@
                   <m__compareAppData>false</m__compareAppData>
                   <m__subReturnType>0</m__subReturnType>
                   <nodeIndex>0</nodeIndex>
-                  <currentValue>11</currentValue>
+                  <currentValue>0</currentValue>
                   <lowerBound>0</lowerBound>
                   <upperBound>63</upperBound>
                 </mqp.gp.command.ButtonPress>
@@ -6989,64 +6525,67 @@
     <mergedObservation reference="../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/mergedObservation"/>
     <marioFloatPos reference="../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/marioFloatPos"/>
     <enemiesFloatPos>
+      <float>96.0</float>
+      <float>94.65921</float>
+      <float>-7.536377</float>
+      <float>96.0</float>
+      <float>76.90921</float>
+      <float>-16.779099</float>
+      <float>95.0</float>
+      <float>57.40921</float>
+      <float>23.696869</float>
+      <float>95.0</float>
+      <float>57.40921</float>
+      <float>22.0</float>
       <float>93.0</float>
-      <float>162.83664</float>
-      <float>-143.4681</float>
-      <float>81.0</float>
-      <float>162.83664</float>
-      <float>-63.468094</float>
-      <float>81.0</float>
-      <float>162.83664</float>
-      <float>-47.468094</float>
+      <float>74.40921</float>
+      <float>48.0</float>
+      <float>93.0</float>
+      <float>39.65921</float>
+      <float>-55.34726</float>
       <float>97.0</float>
-      <float>139.83664</float>
-      <float>-89.56715</float>
+      <float>39.65921</float>
+      <float>-36.095</float>
+      <float>93.0</float>
+      <float>68.90921</float>
+      <float>32.0</float>
+      <float>97.0</float>
+      <float>56.40921</float>
+      <float>-56.797913</float>
+      <float>81.0</float>
+      <float>20.15921</float>
+      <float>0.0</float>
+      <float>93.0</float>
+      <float>38.90921</float>
+      <float>64.0</float>
       <float>13.0</float>
-      <float>-149.41336</float>
-      <float>-21.16809</float>
-      <float>96.0</float>
-      <float>-56.91336</float>
-      <float>10.831909</float>
-      <float>96.0</float>
-      <float>-148.66336</float>
-      <float>-79.29756</float>
+      <float>-132.34079</float>
+      <float>0.0</float>
+      <float>93.0</float>
+      <float>0.6592102</float>
+      <float>0.0</float>
       <float>95.0</float>
-      <float>-14.913361</float>
-      <float>-43.512344</float>
+      <float>-185.34079</float>
+      <float>-26.241547</float>
+      <float>80.0</float>
+      <float>-185.34079</float>
+      <float>32.0</float>
+      <float>80.0</float>
+      <float>-153.34079</float>
+      <float>18.937881</float>
       <float>95.0</float>
-      <float>-169.91336</float>
-      <float>-9.544373</float>
-      <float>93.0</float>
-      <float>-70.66336</float>
-      <float>26.83191</float>
-      <float>93.0</float>
-      <float>-55.66336</float>
-      <float>10.831909</float>
-      <float>97.0</float>
-      <float>-192.91336</float>
-      <float>-47.92308</float>
-      <float>93.0</float>
-      <float>7.8366394</float>
-      <float>10.831909</float>
-      <float>97.0</float>
-      <float>-2.9133606</float>
-      <float>-43.858337</float>
-      <float>93.0</float>
-      <float>-107.91336</float>
-      <float>42.83191</float>
-      <float>93.0</float>
-      <float>-166.66336</float>
-      <float>-5.168091</float>
+      <float>-153.34079</float>
+      <float>-5.848572</float>
     </enemiesFloatPos>
     <marioState reference="../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/marioState"/>
     <marioStatus>0</marioStatus>
     <marioMode>0</marioMode>
-    <isMarioOnGround>false</isMarioOnGround>
-    <isMarioAbleToJump>false</isMarioAbleToJump>
-    <isMarioAbleToShoot>true</isMarioAbleToShoot>
+    <isMarioOnGround>true</isMarioOnGround>
+    <isMarioAbleToJump>true</isMarioAbleToJump>
+    <isMarioAbleToShoot>false</isMarioAbleToShoot>
     <isMarioCarrying>false</isMarioCarrying>
-    <getKillsTotal>2</getKillsTotal>
-    <getKillsByFire>0</getKillsByFire>
+    <getKillsTotal>3</getKillsTotal>
+    <getKillsByFire>1</getKillsByFire>
     <getKillsByStomp>2</getKillsByStomp>
     <getKillsByShell>0</getKillsByShell>
     <receptiveFieldWidth>19</receptiveFieldWidth>
@@ -7056,7 +6595,7 @@
     <zLevelScene>1</zLevelScene>
     <zLevelEnemies>0</zLevelEnemies>
     <ebt class="org.jgap.gp.impl.GPProgram">
-      <m__fitnessValue>1666.0</m__fitnessValue>
+      <m__fitnessValue>2999.0</m__fitnessValue>
       <m__conf reference="../../../m__conf"/>
       <m__types reference="../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__types"/>
       <m__argTypes reference="../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__argTypes"/>
@@ -7093,63 +6632,63 @@
           <m__depth>
             <int>0</int>
             <int>1</int>
-            <int>2</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>2</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
             <int>1</int>
             <int>2</int>
-            <int>3</int>
-            <int>4</int>
-            <int>4</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
             <int>2</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>3</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
-            <int>4</int>
-            <int>5</int>
-            <int>5</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
             <int>0</int>
             <int>0</int>
             <int>0</int>
@@ -7292,118 +6831,8 @@
             <int>0</int>
             <int>0</int>
           </m__depth>
-          <argTypes reference="../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__argTypes/java-class-array"/>
+          <argTypes/>
           <m__genes>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[9]"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[6]"/>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>31</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>31</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>31</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>56</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfMarioOnGround reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[5]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>56</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>56</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
             <mqp.gp.command.IfMarioCanJump reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
             <mqp.gp.command.ButtonPress>
               <m__configuration reference="../../../../../../../m__conf"/>
@@ -7418,29 +6847,10 @@
               <m__compareAppData>false</m__compareAppData>
               <m__subReturnType>0</m__subReturnType>
               <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
+              <currentValue>26</currentValue>
               <lowerBound>0</lowerBound>
               <upperBound>63</upperBound>
             </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[3]"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[7]"/>
             <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
             <mqp.gp.command.ButtonPress>
               <m__configuration reference="../../../../../../../m__conf"/>
@@ -7455,7 +6865,7 @@
               <m__compareAppData>false</m__compareAppData>
               <m__subReturnType>0</m__subReturnType>
               <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
+              <currentValue>54</currentValue>
               <lowerBound>0</lowerBound>
               <upperBound>63</upperBound>
             </mqp.gp.command.ButtonPress>
@@ -7472,367 +6882,64 @@
               <m__compareAppData>false</m__compareAppData>
               <m__subReturnType>0</m__subReturnType>
               <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
+              <currentValue>41</currentValue>
               <lowerBound>0</lowerBound>
               <upperBound>63</upperBound>
             </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[5]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfMarioCanJump reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[2]"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>42</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>42</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[8]"/>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[5]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[8]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[5]"/>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[3]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>40</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>6</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfBlockAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[4]"/>
-            <mqp.gp.command.IfMarioOnGround reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>6</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>6</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.IfEnemyAtPosition reference="../../../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[6]"/>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>6</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
-            <mqp.gp.command.ButtonPress>
-              <m__configuration reference="../../../../../../../m__conf"/>
-              <m__noValidation>false</m__noValidation>
-              <m__returnType>java.lang.Integer</m__returnType>
-              <m__arity>0</m__arity>
-              <m__arityMin>0</m__arityMin>
-              <m__arityMax>0</m__arityMax>
-              <m__integerType>true</m__integerType>
-              <m__floatType>false</m__floatType>
-              <m__energy>0.0</m__energy>
-              <m__compareAppData>false</m__compareAppData>
-              <m__subReturnType>0</m__subReturnType>
-              <nodeIndex>0</nodeIndex>
-              <currentValue>6</currentValue>
-              <lowerBound>0</lowerBound>
-              <upperBound>63</upperBound>
-            </mqp.gp.command.ButtonPress>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
+            <null/>
             <null/>
             <null/>
             <null/>
@@ -8012,63 +7119,63 @@
       <m__depth>
         <int>0</int>
         <int>1</int>
-        <int>2</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>2</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
         <int>1</int>
         <int>2</int>
-        <int>3</int>
-        <int>4</int>
-        <int>4</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
         <int>2</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>3</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
-        <int>4</int>
-        <int>5</int>
-        <int>5</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -8213,116 +7320,6 @@
       </m__depth>
       <argTypes/>
       <m__genes>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[9]"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[6]"/>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[9]"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>31</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>31</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>31</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>56</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfMarioOnGround reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[5]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>56</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>56</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
         <mqp.gp.command.IfMarioCanJump reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
         <mqp.gp.command.ButtonPress>
           <m__configuration reference="../../../../../m__conf"/>
@@ -8337,29 +7334,10 @@
           <m__compareAppData>false</m__compareAppData>
           <m__subReturnType>0</m__subReturnType>
           <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
+          <currentValue>26</currentValue>
           <lowerBound>0</lowerBound>
           <upperBound>63</upperBound>
         </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[3]"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[7]"/>
         <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[4]"/>
         <mqp.gp.command.ButtonPress>
           <m__configuration reference="../../../../../m__conf"/>
@@ -8374,7 +7352,7 @@
           <m__compareAppData>false</m__compareAppData>
           <m__subReturnType>0</m__subReturnType>
           <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
+          <currentValue>54</currentValue>
           <lowerBound>0</lowerBound>
           <upperBound>63</upperBound>
         </mqp.gp.command.ButtonPress>
@@ -8391,367 +7369,64 @@
           <m__compareAppData>false</m__compareAppData>
           <m__subReturnType>0</m__subReturnType>
           <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
+          <currentValue>41</currentValue>
           <lowerBound>0</lowerBound>
           <upperBound>63</upperBound>
         </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[8]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[5]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[2]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfMarioCanJump reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioCanJump"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[2]"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>42</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>42</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[8]"/>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[5]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[8]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[5]"/>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[3]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>40</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>6</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfBlockAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfBlockAtPosition[4]"/>
-        <mqp.gp.command.IfMarioOnGround reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfMarioOnGround"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>6</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>6</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.IfEnemyAtPosition reference="../../../../m__conf/org.jgap.gp.impl.GPConfiguration/default/m__objectiveFunction/task/agent/ebt/m__nodeSets/org.jgap.gp.CommandGene-array/mqp.gp.command.IfEnemyAtPosition[6]"/>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>6</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
-        <mqp.gp.command.ButtonPress>
-          <m__configuration reference="../../../../../m__conf"/>
-          <m__noValidation>false</m__noValidation>
-          <m__returnType>java.lang.Integer</m__returnType>
-          <m__arity>0</m__arity>
-          <m__arityMin>0</m__arityMin>
-          <m__arityMax>0</m__arityMax>
-          <m__integerType>true</m__integerType>
-          <m__floatType>false</m__floatType>
-          <m__energy>0.0</m__energy>
-          <m__compareAppData>false</m__compareAppData>
-          <m__subReturnType>0</m__subReturnType>
-          <nodeIndex>0</nodeIndex>
-          <currentValue>6</currentValue>
-          <lowerBound>0</lowerBound>
-          <upperBound>63</upperBound>
-        </mqp.gp.command.ButtonPress>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
         <null/>
         <null/>
         <null/>

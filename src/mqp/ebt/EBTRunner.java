@@ -29,14 +29,14 @@ public class EBTRunner {
         int[] difficulties = {0, 0, 0, 0, 0, 0, 0, 0, 1, 1};
 
         // Evaluate the agent
-//        task.evaluate(agent);
+        task.evaluate(agent);
 
-        int seed = 0;
-        for (int difficulty : difficulties) {
-            float fitness = task.evaluateSingleLevel(agent, difficulty, seed);
-            System.out.println("Fitness for difficulty " + difficulty + " and seed " + seed + ": " + fitness);
-            seed++;
-        }
+//        int seed = 0;
+//        for (int difficulty : difficulties) {
+//            float fitness = task.evaluateSingleLevel(agent, difficulty, seed);
+//            System.out.println("Fitness for difficulty " + difficulty + " and seed " + seed + ": " + fitness);
+//            seed++;
+//        }
 
         // Exit
         System.exit(0);
