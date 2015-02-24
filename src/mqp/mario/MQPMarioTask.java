@@ -63,6 +63,6 @@ public class MQPMarioTask extends BasicTask implements Task, Cloneable {
             seed++;
         }
 
-        return (int) totalFitness;
+        return (int) Math.max(0, totalFitness);
     }
 }
