@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTRunner {
-    public static String runName = "radius1real";
+    public static String runName = "radius1_200_newtask";
     public static int generation = 1000;
     public static int radius = 1;
 
@@ -29,14 +29,14 @@ public class EBTRunner {
         int[] difficulties = {0, 0, 0, 0, 0, 0, 0, 0, 1, 1};
 
         // Evaluate the agent
-        task.evaluate(agent);
+//        task.evaluate(agent);
 
-//        int seed = 0;
-//        for (int difficulty : difficulties) {
-//            float fitness = task.evaluateSingleLevel(agent, difficulty, seed);
-//            System.out.println("Fitness for difficulty " + difficulty + " and seed " + seed + ": " + fitness);
-//            seed++;
-//        }
+        int seed = 0;
+        for (int difficulty : difficulties) {
+            float fitness = task.evaluateSingleLevel(agent, difficulty, seed);
+            System.out.println("Fitness for difficulty " + difficulty + " and seed " + seed + ": " + fitness);
+            seed++;
+        }
 
         // Exit
         System.exit(0);

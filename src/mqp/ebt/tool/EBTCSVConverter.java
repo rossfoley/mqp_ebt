@@ -16,7 +16,7 @@ import java.io.BufferedReader;
  * @author Ross Foley and Karl Kuhn
  */
 public class EBTCSVConverter {
-    public final String runName = "radius3_1000";
+    public final String runName = "radius3_400_newtask";
     public final int minGen = 1;
     public final int maxGen = 1000;
     public final int interval = 1; //each one
