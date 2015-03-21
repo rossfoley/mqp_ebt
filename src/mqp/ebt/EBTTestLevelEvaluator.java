@@ -11,15 +11,15 @@ import java.io.FileNotFoundException;
  * Main function that runs a specific EBT
  * @author Ross Foley and Karl Kuhn
  */
-public class EBTRunner {
-    public static String runName = "radius1_200_newtask";
+public class EBTTestLevelEvaluator {
+    public static String runName = "radius2_300_newtask2";
     public static int generation = 1000;
-    public static int radius = 1;
+    public static int radius = 2;
 
     public static void main(String[] args) throws FileNotFoundException {
         // Set Mario options
         MarioAIOptions marioAIOptions = new MarioAIOptions();
-        marioAIOptions.setVisualization(true);
+        marioAIOptions.setVisualization(false);
         marioAIOptions.setFPS(30);
         MQPMarioTask task = new MQPMarioTask(marioAIOptions);
 
@@ -27,8 +27,16 @@ public class EBTRunner {
         IGPProgram gp = MarioXMLManager.loadEBT(runName, generation);
         EBTAgent agent = new EBTAgent(gp, radius);
 
-        // Evaluate the agent on the training levels
-        task.evaluate(agent);
+        // Set up difficulty and seed parameters
+        int difficulty = 1;
+        int startingSeed = 0;
+        int numLevels = 1000;
+
+        // Evaluate the agent on all the levels
+        for (int i = 0; i < numLevels; i++) {
+            float fitness = task.evaluateSingleLevel(agent, difficulty, startingSeed + i);
+            System.out.println(fitness);
+        }
 
         // Exit
         System.exit(0);
