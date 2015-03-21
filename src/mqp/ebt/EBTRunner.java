@@ -19,14 +19,14 @@ public class EBTRunner {
     public static void main(String[] args) throws FileNotFoundException {
         // Set Mario options
         MarioAIOptions marioAIOptions = new MarioAIOptions();
-        marioAIOptions.setVisualization(true);
+        marioAIOptions.setVisualization(false);
         marioAIOptions.setFPS(30);
         MQPMarioTask task = new MQPMarioTask(marioAIOptions);
 
         // Load the EBT from the file
         IGPProgram gp = MarioXMLManager.loadEBT(runName, generation);
         EBTAgent agent = new EBTAgent(gp, radius);
-        int[] difficulties = {0, 0, 0, 0, 0, 0, 0, 0, 1, 1};
+        int[] difficulties = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
 
         // Evaluate the agent
 //        task.evaluate(agent);
