@@ -20,7 +20,7 @@ import java.io.IOException;
  */
 public class EBTGraphConverter {
     public static String runName = "radius1_200_newtask";
-    public static int generation = 820;
+    public static int generation = 998;
 
     public static ProgramChromosome chromosome;
     public static DirectedGraph<String, DefaultEdge> graph;

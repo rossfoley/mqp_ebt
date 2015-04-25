@@ -11,10 +11,10 @@ import java.io.FileNotFoundException;
  * Main function that runs a specific EBT
  * @author Ross Foley and Karl Kuhn
  */
-public class EBTRunner {
-    public static String runName = "radius1_200_newtask";
-    public static int generation = 820;
-    public static int radius = 1;
+public class EBTSingleLevelEvaluator {
+    public static String runName = "radius3_400_newtask";
+    public static int generation = 20;
+    public static int radius = 3;
 
     public static void main(String[] args) throws FileNotFoundException {
         // Set Mario options
@@ -27,8 +27,9 @@ public class EBTRunner {
         IGPProgram gp = MarioXMLManager.loadEBT(runName, generation);
         EBTAgent agent = new EBTAgent(gp, radius);
 
-        // Evaluate the agent on the training levels
-        task.evaluate(agent);
+        // Run a single level
+        task.evaluateSingleLevel(agent, 0, 0);
+//        task.evaluateSingleLevel(agent, 1, 745);
 
         // Exit
         System.exit(0);
